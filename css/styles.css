@@ -13,24 +13,21 @@ a {
 ul {list-style-type: none;}
 
 .page-link {
+    color: #4d5ae5;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
     font-family: Raleway , sans-serif;
     line-height: 1.17;
-}
-
-.down-page-link {
-    color: #F4F4FD;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent{
-    color: #4D5AE5;
+    color: #2e2f42;
+}
+
+.down-logo-accent {
+    color: #F4F4FD;
 }
 
 .menu-nav li a {
@@ -38,6 +35,7 @@ ul {list-style-type: none;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .menu-nav li a:hover,
@@ -48,6 +46,7 @@ ul {list-style-type: none;}
 address ul li a {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 address ul li a:hover,
@@ -64,6 +63,8 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 button {
@@ -74,6 +75,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 button:hover,
@@ -86,6 +88,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -93,11 +96,16 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-1 h2 {
@@ -109,8 +117,8 @@ p {
 }
 
 .section-2 ul li img {
-width: 264px;
-height: 260px;
+    width: 264px;
+    height: 260px;
 }
 
 .section-3 ul li img {
@@ -126,4 +134,6 @@ footer p {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
+    letter-spacing: 0.02em;
 }
