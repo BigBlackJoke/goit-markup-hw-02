@@ -43,17 +43,15 @@ ul {list-style-type: none;}
     color: #404BBF;
 }
 
-.address-1 ul li a {
+.address-one ul li a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
-    color: #434455;
 }
 
-address ul li a:hover,
-address ul li a:focus {
+.address-one ul li a:hover,
+.address-one ul li a:focus {
     color: #404BBF;
 }
 
