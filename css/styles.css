@@ -59,7 +59,7 @@ ul {list-style-type: none;}
     background-color: #2E2F42;
 }
 
-h1 {
+.hero-image-text {
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
@@ -68,7 +68,7 @@ h1 {
     letter-spacing: 0.02em;
 }
 
-button {
+.main-button {
     background-color: #4D5AE5;
     font-family: Roboto , sans-serif;
     font-weight: 500;
@@ -79,12 +79,12 @@ button {
     letter-spacing: 0.04em;
 }
 
-button:hover,
-button:focus {
+.main-button:hover,
+.main-button:focus {
     background-color: #404BBF;
 }
 
-h3 {
+.sections-paragraph {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -92,7 +92,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-h2 {
+.sections-title {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
@@ -109,7 +109,7 @@ p {
     text-align: center;
 }
 
-.section-1 h2 {
+.section-1 .sections-title {
     color: #ffffff;
 }
 
@@ -117,14 +117,8 @@ p {
     background-color: #F4F4FD;
 }
 
-.section-2 ul li img {
-    width: 264px;
-    height: 260px;
-}
-
-.section-3 ul li img {
-    width: 360px;
-    height: 300px;
+.section-2 .section-2-list {
+    background-color: #ffffff;
 }
 
 footer {
