@@ -30,7 +30,7 @@ ul {list-style-type: none;}
     color: #F4F4FD;
 }
 
-.menu-nav li a {
+.menu-nav-link {
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
@@ -38,20 +38,24 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
 }
 
-.menu-nav li a:hover,
-.menu-nav li a:focus {
+.menu-nav-link:hover,
+.menu-nav-link:focus {
     color: #404BBF;
 }
 
-.address-one ul li a {
+.address-one{
+    font-style: normal;
+}
+
+.address-one-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-one ul li a:hover,
-.address-one ul li a:focus {
+.address-one-link:hover,
+.address-one-link:focus {
     color: #404BBF;
 }
 
@@ -84,7 +88,7 @@ ul {list-style-type: none;}
     background-color: #404BBF;
 }
 
-.sections-paragraph {
+.sections-paragraph-title {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -102,11 +106,17 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
 }
 
-p {
+.sections-paragraph-center {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.sections-paragraph {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .section-1 .sections-title {
@@ -117,7 +127,7 @@ p {
     background-color: #F4F4FD;
 }
 
-.section-2 .section-2-list {
+.section-2-list {
     background-color: #ffffff;
 }
 
