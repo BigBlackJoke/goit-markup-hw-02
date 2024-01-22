@@ -127,15 +127,15 @@ ul {list-style-type: none;}
     background-color: #F4F4FD;
 }
 
-.section-2-list {
-    background-color: #ffffff;
+.section-2-img {
+    background-color: #FFFFFF;
 }
 
 footer {
     background-color: #2E2F42;
 }
 
-footer p {
+.footer-paragraph {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
